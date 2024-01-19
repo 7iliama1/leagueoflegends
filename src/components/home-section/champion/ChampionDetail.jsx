@@ -33,9 +33,9 @@ const ChampionDetail = props => {
             <div className="champion-detail__content">
                 <span>{item.nickName}</span>
                 <h2 className="name main-color">{item.name}</h2>
-                <span>Role: <span className="second-color">{item.role}</span></span>
+                <span>Role: <span className="hero-name-color">{item.role}</span></span>
                 <br />
-                <span>Difficulty: <span className="second-color">{item.difficulty}</span></span>
+                <span>Difficulty: <span className="hero-name-color">{item.difficulty}</span></span>
                 <div className="story">
                     {item.description}
                 </div>

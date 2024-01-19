@@ -53,7 +53,16 @@ const Welcome = props => {
         }
 
         setInterval(autoImageSlide, 3000);
-    }, [])
+    }, []);
+
+
+    const handlePlayNowClick = () => {
+        window.open('https://signup.leagueoflegends.com/en-gb/signup/index#/', '_blank');
+    };
+
+    const handlePlayNowClickSecond = () => {
+        window.open('https://www.leagueoflegends.com/en-gb/news/game-updates/2024-gameplay-preview/', '_blank');
+    };
 
     return (
         <HomeSection
@@ -65,14 +74,25 @@ const Welcome = props => {
                 <div className="welcome__info__content">
                     <div className="title">
                         <span>Welcome To</span>
-                        <h2 className="main-color">Summoner's Rift</h2>
+                        <h2 className="main-color">Legends of Runeterra</h2>
                     </div>
                     <div className="description m-t-4">
-                        Team up with friends and test your skills in 5v5 MOBA combat. All the high-skill competition you crave, designed especially for mobile and console with revamped controls and streamlined matches.Explore the living universe of Runeterra through lore, comics, games, and more. Then dive into the community of gamers, cosplayers, musicians, and content creators who are waiting for you to join them.
+                    Join forces with your pals and put your abilities to the test in 5v5 MOBA battles. 
+                    Experience the intense, high-skill competition you desire, tailored specifically for mobile and console gaming with enhanced controls and quick-paced matches. 
+                    Immerse yourself in the dynamic world of Runeterra through captivating stories, comics, games, and additional content. 
+                    Then, become part of a vibrant community consisting of gamers, cosplayers, musicians, and content creators eagerly anticipating your collaboration.
                     </div>
                     <div className="btns m-t-4">
-                        <Button className="btn-main">PLAY NOW</Button>
-                        <Button className="btn-second">GET STARTED</Button>
+                        <Button className="btn-main">
+                        <a href="#"  rel="noopener noreferrer" onClick={handlePlayNowClick}>
+                            PLAY NOW
+                        </a>
+                        </Button>
+                        <Button className="btn-second">
+                        <a href="#"  rel="noopener noreferrer" onClick={handlePlayNowClickSecond}>
+                            GET STARTED
+                        </a>
+                        </Button>
                     </div>
                 </div>
             </div>
