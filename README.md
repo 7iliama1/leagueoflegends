@@ -1,8 +1,17 @@
-# React + Vite
+# League of Legends Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a non-responsive Game landing page for League of Legends, built using the following technologies:
 
-Currently, two official plugins are available:
+## Key Features
+- **React**: A JavaScript library for building user interfaces.
+- **SASS**: A CSS preprocessor that enhances styling capabilities.
+- **ViteJS**: A fast development build tool that provides an optimized development experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+1. Clone the repository: `git clone https://github.com/your-username/hoobank.git`
+2. Navigate to the project folder: `cd your-foldername`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
+
+## Demo
+Explore the live demo [here](https://leagueoflegendsorg.netlify.app/).
