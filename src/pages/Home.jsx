@@ -28,7 +28,7 @@ const swiperOptions = {
     mousewheel: true,
     pagination: true,
     effect: 'fade',
-    speed: 1000
+    speed: 100
 }
 
 const Home = () => {
